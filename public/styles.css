@@ -1,0 +1,108 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+html,body{
+  overflow-x: hidden;
+}
+header{
+  background-color: rgba(245, 245, 245, 0.505);
+}
+p{
+  text-align: justify;
+}
+a{
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+}
+
+img{
+ max-width: 100%;
+}
+
+.logo-container>img{
+  width:50%;
+}
+main{
+  background: linear-gradient(180deg, rgba(252,255,0,0) 0%, rgba(253,220,45,0.49547151624321606) 100%);
+}
+.all-products-imgs>img{
+
+  width:80%;
+
+}
+footer{
+  background-color: rgb(255, 0, 0);
+  min-height: 20vh;
+}
+footer>ul{
+  list-style-type: none;
+}
+footer>ul>li,footer>ul>li>a{
+  color: white;
+}
+footer>ul>li>i{
+  font-size: 1.5em;
+  margin-right: 4px;
+}
+.achievements>p:nth-child(1){
+  font-size: 1.05rem;
+}
+.award-trophy-img>img{
+    width: 100%;
+}
+.Segments>*{
+  text-align: center;
+}
+@media screen and (min-width:768px) {
+  .achievements>p:nth-child(1){
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width:992px) {
+  .achievements>p:nth-child(1){
+    font-size: 1.1rem;
+
+  }
+  .award-trophy-img{
+    flex:1;
+  }
+  .achievements{
+    flex:2;
+  }
+  .achievements>ul>li{
+    font-size: 1.1rem;
+  }
+  
+  .achievements div img{
+    width: 95%;
+  }
+  
+
+}
+@media screen and (min-width:1400px) {
+  
+  .award-trophy-img{
+    flex:1;
+  }
+  .achievements{
+    flex:2;
+    align-self: self-start;
+  }
+
+  p,.achievements>ul>li{
+    font-size: 1.1rem;
+  }
+  .achievements>p:nth-child(1){
+    font-size: 1.15rem;
+  }
+  
+  .achievements div img{
+    width: 100%;
+  }
+}
+
+
