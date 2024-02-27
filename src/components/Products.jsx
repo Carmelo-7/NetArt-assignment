@@ -1,6 +1,6 @@
 function Products(){
 return(
-    <section className="px-5 mt-5 border-bottom border-2 border-danger">
+    <section className="mx-3 px-5 px-lg-1 mt-5 border-bottom border-2 border-danger">
     <p className="text-center text-md-start">INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.</p>
     <div className="all-products-imgs text-center">
         <img src="./img/3.png" alt="all-products"/>

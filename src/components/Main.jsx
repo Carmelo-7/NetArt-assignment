@@ -5,7 +5,7 @@ import Footer from "./Footer.jsx";
 
 function Main(){
 return (
-    <main className="">
+    <main>
         <About />
         <Products />
         <Segments />
